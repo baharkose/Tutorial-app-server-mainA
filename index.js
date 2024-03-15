@@ -13,6 +13,8 @@ app.use(
     origin: "https://tutorial-app-client-main-a.vercel.app",
   }),
 );
+
+console.log("a")
 app.use(express.json());
 
 app.use(todoRouter);
